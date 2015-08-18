@@ -37,7 +37,7 @@
 			<artifactId>es.aabanegas</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/aabanegas-utils.jar</systemPath>
+			<systemPath>${basedir}/lib/aabanegas-utils.jar</systemPath>
 		</dependency>
 
 		<!-- jCSV. This library allow create entities parser to cast objects -->
