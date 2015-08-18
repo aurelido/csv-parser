@@ -1,6 +1,6 @@
-# message-scheduler
+# csv-parser
 
-Message Scheduler is a system which receives Messages to be sent ( and queues them up if they cannot be processed yet ).
+csv-parser is a system which is be able to read a folder with CSV files and order all included records by configured options.
 
 ### Version
 1.0
