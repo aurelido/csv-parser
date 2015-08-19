@@ -1,7 +1,7 @@
 # csv-parser
 
-csv-parser is a system which is be able to read a folder with CSV files and order all included records by configured options.
-
+csv-parser is a system which is be able to read a folder with CSV files and order all included records by configured options. It is importand that you have no creata a specific Class to cast data, to be more configurable and flexible, it only manages String arrays. 
+More fields could be added without coding. 
 ### Version
 1.0
 
@@ -26,11 +26,11 @@ To get a generic approach, it is possible to configure most of sort parameters. 
 # Config properties
 #
 
-# Records sorted by field in this position
+# Records sorted by field in this position. 0 default value
 sort.field=2
-# Records sorted by field desc order
+# Records sorted by field desc order. true default value
 sort.desc=true
-# Type of sorter field [date|number|string]
+# Type of sorter field [date|number|string]. 'string' default value
 sort.type=date
 
 # Path to csv folder. Empty values use classpath to search csv files
