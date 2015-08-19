@@ -34,7 +34,19 @@ sort.desc=true
 sort.type=date
 
 # Path to csv folder. Empty values use classpath to search csv files
-files.csv.path=/path_to_csv_folder
+files.csv.path=
+```
+
+to run it in stand-alone mode, first you must register third party aabanegas-utils.jar in your local repository:
+
+```bash
+$ mvn install:install-file -Dfile=lib/aabanegas-utils.jar -DpomFile=/pom.xml -DgroupId=es.aabanegas -DartifactId=aabanegas-utils -Dversion=1.0 -Dpackaging=jar
+```
+
+and then, run it!
+
+```bash
+mvn exec:java -Dexec.mainClass="es.aabanegas.csv.loader.CSVParserLoader"
 ```
 
 ## Running Tests

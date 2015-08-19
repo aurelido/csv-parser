@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Methods to manager csv files
+ * Methods to manage csv files
  * 
  * @author Aurelio Aragones
  */
@@ -22,8 +22,8 @@ public class UtilsCSV {
     /**
      * Read folder .
      * 
-     * @param path  Ruta que contiene los fichero CSV a recuperar
-     * @return Lista de Path de archivos con extension CSV
+     * @param path  Path CSV folder
+     * @return Lith of Path, filter by extension {@code *.csv}
      * @throws IOException 
      */
     public static List<Path> filesCSVInPath(String path) throws IOException {
