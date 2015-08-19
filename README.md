@@ -18,7 +18,7 @@ $ mvn clean package
 
 ## Usage
 
-To get a generic approach, it is possible to configure most of sort parameters. You can find all configuration variables in [/src/main/resources/csvParserConfig.properties](https://github.com/aurelido/csv-parser/blob/master/src/main/resources/csvParserConfig.properties):
+To get a generic approach, it is possible to configure most of sort parameters. You can modify all configuration variables in [/src/main/resources/csvParserConfig.properties](https://github.com/aurelido/csv-parser/blob/master/src/main/resources/csvParserConfig.properties):
 
 
 ```bash
@@ -46,7 +46,7 @@ $ mvn install:install-file -Dfile=lib/aabanegas-utils.jar -DpomFile=/pom.xml -Dg
 and then, run it!
 
 ```bash
-mvn exec:java -Dexec.mainClass="es.aabanegas.csv.loader.CSVParserLoader"
+$ mvn exec:java -Dexec.mainClass="es.aabanegas.csv.loader.CSVParserLoader"
 ```
 
 ## Running Tests
